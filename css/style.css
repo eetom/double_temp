@@ -68,7 +68,7 @@ Carousel Styles
 }
 
 .carousel-caption a {
-	color: #e85c36;
+	color: #fff;
 	font-size: 18px;
 	font-weight: 100;
 	font-style: italic;
@@ -76,7 +76,7 @@ Carousel Styles
 }
 
 .carousel-caption a:hover, .carousel-caption a:focus {
-	color: #e85c36;
+	color: #fff;
 	font-weight: 100;
 	font-style: italic;
 	text-decoration: underline;
