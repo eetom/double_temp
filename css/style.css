@@ -1,2 +1,132 @@
 /* Bootstrap CSS */
 
+
+/*=========================================
+Double CSS
+=========================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic);
+
+
+html {
+	font-family: 'Lato', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+/*=========================================
+Navbar Styles
+=========================================*/
+
+
+.navbar-double {
+	background-color: rgba(0,0,0,0);
+}
+
+.navbar-brand {
+	padding: 0 0;
+}
+
+.navbar-brand img {
+	height: 75px;
+}
+
+.navbar-double .navbar-nav>li>a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: rgba(255,255,255,0.1);
+}
+
+
+/*=========================================
+Carousel Styles
+=========================================*/
+
+.carousel-caption {
+	position: absolute;
+	left: 10%;
+	top: 200px;
+	z-index: 10;
+	width: 45em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+.carousel-caption h2 {
+	font-size: 35px;
+}
+
+.carousel-caption a {
+	color: #e85c36;
+	font-size: 18px;
+	font-weight: 100;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.carousel-caption a:hover, .carousel-caption a:focus {
+	color: #e85c36;
+	font-weight: 100;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+
+/*=========================================
+Button Styles
+=========================================*/
+
+.hero-buttons a {
+	text-decoration: none;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.hero-buttons a:hover, .hero-buttons a:focus {
+	text-decoration: none;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.hero-buttons .btn-main {
+	color: #fff;
+	background-color: #e85c36;
+	border-color: #e85c36;
+	margin-top: 30px;
+}
+
+.hero-buttons .btn-main:hover {
+	color: #fff;
+	background-color: #c15036;
+	border-color: #c15036;
+	margin-top: 30px;
+}
+
+.hero-buttons .btn-secondary {
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+	border-color: #fff;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.hero-buttons .btn-secondary:hover {
+	color: #333;
+	background-color: #fff;
+	border-color: #fff;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+
