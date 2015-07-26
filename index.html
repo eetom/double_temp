@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +12,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/double_style.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,166 +22,167 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
+
+
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-double navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                  <img alt="Brand" src="image/nav_logo.png">  
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <!=========================================
+    NavBar
+    =========================================-->
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">double</a>
         </div>
-        <!-- /.container -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Capabilities</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign In</a></li>
+            <button type="button" class="btn btn-lg btn-cta">Sign Up</button>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
 
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('image/casey1.png');"></div>
-                <div class="carousel-caption">
-                    <h2>My Double helps me with scheduling and manages some of our business initiatives. <strong>Capable, responsive and on-demand.</strong><br> It’s a no brainer.</h2>
-                    <div class="quote-author">
-                      <h3>– Casey Lau, <a href="www.startupshk.com/">co-founder StartupSHK</a></h3>
-                    </div>
-                    <div class="hero-buttons">
-                      <a class="btn btn-main btn-lg" href="#" role="button">Try Double Free!</a>
-                      <a class="btn btn-secondary btn-lg" href="#" role="button">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('image/gene1.png');"></div>
-                <div class="carousel-caption">
-                    <h2>I was skeptical at first, but my Double surely made <strong>an positive impact to our business</strong> with their ability to research and execute.</h2>
-                    <div class="quote-author">
-                      <h3>– Gene Soo, <a href="www.startupshk.com/">co-founder StartupSHK</a></h3>
-                    </div>
-                    <div class="hero-buttons">
-                      <a class="btn btn-main btn-lg" href="#" role="button">Try Double Free!</a>
-                      <a class="btn btn-secondary btn-lg" href="#" role="button">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('image/keith1.png');"></div>
-                <div class="carousel-caption">
-                    <h2>I’ve tried other VA services but <strong>Double is the only one that works for me.</strong> My Double enables me to be more productive as a founder.</h2>
-                    <div class="quote-author">
-                      <h3>– Keith Rumjahn, <a href="http://www.coachbase.com/">Founder of Coachbase</a></h3>
-                    </div>
-                    <div class="hero-buttons">
-                      <a class="btn btn-main btn-lg" href="#" role="button">Try Double Free!</a>
-                      <a class="btn btn-secondary btn-lg" href="#" role="button">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('image/karena1.png');"></div>
-                <div class="carousel-caption">
-                    <h2>My Double’s local knowledge has saved my life in a recent last-minute request. <strong>Highly recommend Double to any founders.</strong></h2>
-                    <div class="quote-author">
-                      <h3>– Karena Belin, <a href="www.whub.hk/">co-founder W HUB</a></h3>
-                    </div>
-                    <div class="hero-buttons">
-                      <a class="btn btn-main btn-lg" href="#" role="button">Try Double Free!</a>
-                      <a class="btn btn-secondary btn-lg" href="#" role="button">Learn More</a>
-                    </div>
-                </div>
+
+    <!=========================================
+    Hero Section
+    =========================================-->
+
+    <div class = "hero">
+        <div class = "col-md-5 main-text">
+            <h1>Your Business Assistant <br>- On Demand</h1>
+            <h4>Your Double takes care of all your administrative tasks in developing your products and running your business so you can focus on growing your startup.</h4>
+            <div class = "cta-area">
+                <a href = "#" class = "btn btn-hero-cta btn-default">Use Double FREE - it’s on us</a>
+                <p class = "cap-text">*60 Minutes Trial</p>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Full Slider by Start Bootstrap</h1>
-                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Double 2015</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!=========================================
+    Testimonial
+    =========================================-->
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <div class = "testimonial">
+        <div class="container">
+          <br>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img_chania.jpg" alt="Chania" width="460" height="300">
+              </div>
+
+              <div class="item">
+                <img src="img_chania2.jpg" alt="Chania" width="460" height="300">
+              </div>
+            
+              <div class="item">
+                <img src="img_flower.jpg" alt="Flower" width="460" height="300">
+              </div>
+
+              <div class="item">
+                <img src="img_flower2.jpg" alt="Flower" width="460" height="300">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <!=========================================
+    Triple-Text
+    =========================================-->
+
+    <div class = "tritext">
+        <h2>One Double, Multiple Hats</h2>
+        <p class = "cap-text">Examples on how your double can help</p>
+        <div class = "row">
+            <div class = "col-md-4">
+                <img src="./image/filler_icon.png" alt="" width="150" height="150">
+                <h3>Product Development</h3>
+                <p>Donec nec justo eget felis facilisis fermentumenean dignissim pellentesque felis.Donec nec justo eget felis facilisis fermentumenean dignissim pellentesque felis.</p>
+            </div>
+            <div class = "col-md-4">
+                <img src="./image/filler_icon.png" alt="" width="150" height="150">
+                <h3>Business Development</h3>
+                <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.</p>
+            </div>
+            <div class = "col-md-4">
+                <img src="./image/filler_icon.png" alt="" width="150" height="150">
+                <h3>General Support</h3>
+                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+            </div>
+        </div>
+        <h3>Don’t see what you need? Just ask!</h3>
+        <a href = "#" class = "btn btn-hero-cta btn-default">Try Double now – Talking is always FREE.</a>
+    </div>
+
+
+    <!=========================================
+    Three-Split
+    =========================================-->
+
+    <div class = "threesplit">
+        <div class = "inner-threesplit">
+            <h2>Double your productivity in 3 steps</h2>
+            <p class = "cap-text">It’s as easy as 1, 2, and 3</p>
+        </div>
+    </div>
+
+
+    <!=========================================
+    Footer
+    =========================================-->
+
+    <div class = "footer">
+        <h2>Startups are hard. Double can help.</h2>
+        <a href = "#" class = "btn btn-footer-cta btn-default">Use Double FREE - it’s on us</a>
+    </div>
+
+
+
 
 </body>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </html>
