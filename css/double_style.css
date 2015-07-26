@@ -1,0 +1,230 @@
+/* Bootstrap CSS */
+
+
+/*=========================================
+Double CSS
+=========================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,300italic,400italic);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-size: 16px;
+	color: #777;
+}
+
+
+
+
+
+/*=================  Navbar */
+
+.navbar-default {
+	background-color: #fff;
+	border-color: rgba(0,0,0,0);
+	height: 80px;
+	padding: 11px 15px 0 15px;	
+	margin-top: 20px;
+}
+
+.container-fluid {
+	max-width: 1280px;
+	padding: 4px 0 20px 0;
+	border-bottom: 2px solid #fafafa;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 40px;
+	font-weight: 600;
+	color: #E85C36;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #D15437;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 18px;
+	padding-top: 22px;
+	color: #E85C36;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #D15437;
+}
+
+.btn {
+	display: block;
+	margin-top: 8px;
+}
+
+.btn-cta {
+	color: #E85C36;
+	background-color: rgba(0,0,0,0);
+	border-color: #E85C36;
+}
+
+.btn-cta:hover, .btn-cta:focus {
+	color: #fff;
+	background-color: #E85C36;
+	border-color: #E85C36;
+	transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+/*=================  Hero */
+
+.hero {
+	max-width: 1280px;
+	margin: 40px auto;
+	height: 40em; /* Edit later */
+}
+
+.btn-hero-cta {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding: 10px 25px;
+	color: #fff;
+	background-color: #E85C36;
+	border-color: #E85C36;
+}
+
+.btn-hero-cta:hover, .btn-hero-cta:focus {
+	color: #E85C36;
+	background-color: rgba(0,0,0,0);
+	border-color: #E85C36;
+	transition: all .5s ease;
+}
+
+p.cap-text {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #aaa;
+}
+
+h1 {
+	font-size: 40px;
+	color: #555;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #555;
+}
+
+.cta-area {
+/*	text-align: center;*/
+}
+
+.main-text {
+	margin-top: 6%;
+}
+
+
+
+
+
+
+/*=================  Testimonial */
+
+.testimonial {
+	margin: 40px auto;
+	background-color: #333;
+	height: 500px;   /* Edit later */
+}
+
+.textimonial-img {
+
+}
+
+
+
+
+
+/*=================  Triple-text */
+
+.tritext {
+	max-width: 1280px;
+	margin: 40px auto;
+	padding: 3% 0;
+	height: 600px;   /* Edit later */
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*=================  Three-split */
+
+.threesplit {
+	background-color: #f9f9f9;
+	margin: 40px auto 0 auto;
+	height: 900px;   /* Edit later */
+}
+
+.inner-threesplit {
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+/*=================  Footer */
+
+.footer {
+	background-color: #333;
+	margin: 0 auto;
+	height: 300px;   /* Edit later */
+	text-align: center;
+}
+
+.footer h2 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 200;
+	padding-top: 40px;
+
+}
+
+.btn-footer-cta {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding: 10px 25px;
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+	border-color: #E85C36;
+}
+
+.btn-footer-cta:hover, .btn-footer-cta:focus {
+	color: #fff;
+	background-color: rgba(256,256,256,0.1);
+	border-color: #fff;
+	transition: all .5s ease;
+}
