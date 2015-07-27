@@ -49,8 +49,8 @@ p {
 	color: #E85C36;
 }
 
-.navbar-default .navbar-brand:hover {
-	color: #D15437;
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #E85C36;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -60,7 +60,11 @@ p {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: #D15437;
+	color: #555;
+}
+
+..navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background-color: #fff;
 }
 
 .btn {
@@ -80,7 +84,6 @@ p {
 	border-color: #E85C36;
 	transition: all 0.5s;
 }
-
 
 
 
@@ -149,13 +152,39 @@ h4 {
 .testimonial {
 	margin: 40px auto;
 	background-color: #333;
-	height: 500px;   /* Edit later */
+	height: 250px;   /* Edit later */
 }
 
 .textimonial-img {
 
 }
 
+.item {
+	margin-top: 6px;
+}
+
+.carousel {
+	height: 200px;
+}
+
+.test-text {
+	color: #ccc;
+	font-weight: 200;
+	font-size: 25px;
+	margin-top: 25px;
+}
+
+.test-name {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 10px;
+	letter-spacing: 2px;
+}
+
+.row .col-sm-3 img {
+	border-radius: 100px;
+}
 
 
 
@@ -181,7 +210,7 @@ h4 {
 .threesplit {
 	background-color: #f9f9f9;
 	margin: 40px auto 0 auto;
-	height: 900px;   /* Edit later */
+	height: 1200px;   /* Edit later */
 }
 
 .inner-threesplit {
@@ -189,6 +218,27 @@ h4 {
 	padding-top: 40px;
 }
 
+.three-split-img img{
+	height: 20em;
+}
+
+.three-split-text {
+	text-align: left;
+	padding-top: 5em;
+	font-weight: 200;
+	font-size: 16px;
+}
+
+.three-split-text .three-split-title {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.threesplit .row {
+	margin: 40px auto;
+	max-width: 1280px;
+}
 
 
 
@@ -199,7 +249,7 @@ h4 {
 .footer {
 	background-color: #333;
 	margin: 0 auto;
-	height: 300px;   /* Edit later */
+	height: 325px;
 	text-align: center;
 }
 
@@ -208,6 +258,7 @@ h4 {
 	font-size: 30px;
 	font-weight: 200;
 	padding-top: 40px;
+	margin-top: 0;
 
 }
 
@@ -228,3 +279,56 @@ h4 {
 	border-color: #fff;
 	transition: all .5s ease;
 }
+
+.footer-bottom {
+	text-align: left;
+	margin: 20px auto 0 auto;
+	max-width: 1280px;
+}
+
+.footer-menu {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 0 0 0;
+	list-style: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 40px;
+}
+
+.footer-link {
+	padding: 0;
+	text-align: left;
+	font-weight: 300;
+	line-height: 24px;
+	text-decoration: none;
+	color: #E85C36;
+
+}
+
+.footer-link a {
+	color: #ccc;
+}
+
+.footer-logo {
+	font-size: 40px;
+	font-weight: 600;
+	color: #E85C36;
+}
+
+.footer-logo:hover, .footer-logo:focus {
+	text-decoration: none;
+	color: #E85C36;
+}
+
+.footer-copyright {
+	font-weight: 200;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+
